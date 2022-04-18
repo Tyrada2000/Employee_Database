@@ -33,3 +33,4 @@ C:\Users\Tyler\source\repos\EmployeeDatabase\EmployeeDatabase\bin\Debug\System.M
 C:\Users\Tyler\source\repos\EmployeeDatabase\EmployeeDatabase\bin\Debug\System.Numerics.Vectors.xml
 C:\Users\Tyler\source\repos\EmployeeDatabase\EmployeeDatabase\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 C:\Users\Tyler\source\repos\EmployeeDatabase\EmployeeDatabase\obj\Debug\EmployeeDatabase.vbproj.CopyComplete
+C:\Users\Tyler\source\repos\EmployeeDatabase\EmployeeDatabase\obj\Debug\EmployeeDatabase.Form2.resources

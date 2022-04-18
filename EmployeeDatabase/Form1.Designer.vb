@@ -42,6 +42,7 @@ Partial Class Form1
         '
         'Button2
         '
+        Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button2.Location = New System.Drawing.Point(260, 223)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(153, 47)
@@ -80,6 +81,7 @@ Partial Class Form1
         '
         Me.TextBox_Pass.Location = New System.Drawing.Point(256, 180)
         Me.TextBox_Pass.Name = "TextBox_Pass"
+        Me.TextBox_Pass.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
         Me.TextBox_Pass.Size = New System.Drawing.Size(175, 22)
         Me.TextBox_Pass.TabIndex = 5
         '

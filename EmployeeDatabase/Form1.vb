@@ -42,7 +42,9 @@ Public Class Form1
             End While
 
             If count = 1 Then
-                MessageBox.Show("Username and password are correct")
+                Form2.Show()
+                Me.Hide()
+
             ElseIf count > 1 Then
                 MessageBox.Show("Username and password are Duplicate")
             Else
