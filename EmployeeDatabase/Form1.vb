@@ -10,8 +10,8 @@ Public Class Form1
     Dim DtA As New MySqlDataAdapter
 
     Dim server As String = "localhost"
-    Dim username As String = "root"
-    Dim password As String = "Dragons1@"
+    Dim username As String = "sqluser"
+    Dim password As String = "password"
     Dim database As String = "employeedata"
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
