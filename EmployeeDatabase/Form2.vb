@@ -18,7 +18,7 @@ Public Class Form2
             sqlConn.Open()
             Dim Query As String
             Query = "insert into employeedata.employeedata (Firstname,Lastname,JobTitle,DateOfHire) 
-values('" & TextBox_First.Text & "','" & TextBox_Last.Text & "','" & TextBox_Job.Text & "''" & TextBox_DoH.Text & "')"
+values ('" & TextBox_First.Text & "','" & TextBox_Last.Text & "','" & TextBox_Job.Text & "','" & TextBox_DoH.Text & "')"
             sqlCmd = New MySqlCommand(Query, sqlConn)
             sqlRd = sqlCmd.ExecuteReader
 
