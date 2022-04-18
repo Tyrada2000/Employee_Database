@@ -10,8 +10,8 @@ Public Class Form1
     Dim DtA As New MySqlDataAdapter
 
     Dim server As String = "localhost"
-    Dim username As String = "sqluser"
-    Dim password As String = "password"
+    Dim username As String = "root"
+    Dim password As String = ""
     Dim database As String = "employeedata"
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
@@ -19,11 +19,11 @@ Public Class Form1
 
     Private Sub updateTable()
         sqlConn.ConnectionString = "server=" + server + ";" + "user id=" + username + ";" _
-            + "password=" + password + ";" + "database" + database
+        + "password=" + password + ";" + "database" + database
 
         sqlConn.Open()
 
-        sqlCmd.CommandText = "SELECT * From employeedata"
+        sqlCmd.CommandText = "SELECT * From employeedata.employee"
 
         sqlRd = sqlCmd.ExecuteReader
         sqlDt.Load(sqlRd)
