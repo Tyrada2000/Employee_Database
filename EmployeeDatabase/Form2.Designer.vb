@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class Form2
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,7 +20,7 @@ Partial Class Form2
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Button1 = New System.Windows.Forms.Button()
@@ -35,6 +35,8 @@ Partial Class Form2
         Me.Button3 = New System.Windows.Forms.Button()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.TextBox_Id = New System.Windows.Forms.TextBox()
+        Me.Button4 = New System.Windows.Forms.Button()
+        Me.ListBox1 = New System.Windows.Forms.ListBox()
         Me.SuspendLayout()
         '
         'Label1
@@ -99,35 +101,39 @@ Partial Class Form2
         '
         'TextBox_First
         '
-        Me.TextBox_First.Location = New System.Drawing.Point(268, 210)
+        Me.TextBox_First.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox_First.Location = New System.Drawing.Point(268, 194)
         Me.TextBox_First.Name = "TextBox_First"
-        Me.TextBox_First.Size = New System.Drawing.Size(130, 22)
+        Me.TextBox_First.Size = New System.Drawing.Size(130, 41)
         Me.TextBox_First.TabIndex = 6
         '
         'TextBox_Last
         '
-        Me.TextBox_Last.Location = New System.Drawing.Point(268, 279)
+        Me.TextBox_Last.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox_Last.Location = New System.Drawing.Point(268, 263)
         Me.TextBox_Last.Name = "TextBox_Last"
-        Me.TextBox_Last.Size = New System.Drawing.Size(130, 22)
+        Me.TextBox_Last.Size = New System.Drawing.Size(130, 41)
         Me.TextBox_Last.TabIndex = 7
         '
         'TextBox_Job
         '
-        Me.TextBox_Job.Location = New System.Drawing.Point(268, 334)
+        Me.TextBox_Job.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox_Job.Location = New System.Drawing.Point(268, 318)
         Me.TextBox_Job.Name = "TextBox_Job"
-        Me.TextBox_Job.Size = New System.Drawing.Size(130, 22)
+        Me.TextBox_Job.Size = New System.Drawing.Size(130, 41)
         Me.TextBox_Job.TabIndex = 8
         '
         'TextBox_DoH
         '
-        Me.TextBox_DoH.Location = New System.Drawing.Point(268, 391)
+        Me.TextBox_DoH.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox_DoH.Location = New System.Drawing.Point(268, 375)
         Me.TextBox_DoH.Name = "TextBox_DoH"
-        Me.TextBox_DoH.Size = New System.Drawing.Size(130, 22)
+        Me.TextBox_DoH.Size = New System.Drawing.Size(130, 41)
         Me.TextBox_DoH.TabIndex = 9
         '
         'Button3
         '
-        Me.Button3.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button3.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button3.Location = New System.Drawing.Point(236, 446)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(180, 60)
@@ -139,24 +145,46 @@ Partial Class Form2
         '
         Me.Label5.AutoSize = True
         Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.Location = New System.Drawing.Point(150, 139)
+        Me.Label5.Location = New System.Drawing.Point(55, 139)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(42, 36)
+        Me.Label5.Size = New System.Drawing.Size(190, 36)
         Me.Label5.TabIndex = 11
-        Me.Label5.Text = "Id"
+        Me.Label5.Text = "Employee Id"
         '
         'TextBox_Id
         '
-        Me.TextBox_Id.Location = New System.Drawing.Point(268, 139)
+        Me.TextBox_Id.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox_Id.Location = New System.Drawing.Point(268, 136)
         Me.TextBox_Id.Name = "TextBox_Id"
-        Me.TextBox_Id.Size = New System.Drawing.Size(130, 22)
+        Me.TextBox_Id.Size = New System.Drawing.Size(130, 41)
         Me.TextBox_Id.TabIndex = 12
+        '
+        'Button4
+        '
+        Me.Button4.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button4.Location = New System.Drawing.Point(433, 446)
+        Me.Button4.Name = "Button4"
+        Me.Button4.Size = New System.Drawing.Size(165, 60)
+        Me.Button4.TabIndex = 13
+        Me.Button4.Text = "Delete"
+        Me.Button4.UseVisualStyleBackColor = True
+        '
+        'ListBox1
+        '
+        Me.ListBox1.FormattingEnabled = True
+        Me.ListBox1.ItemHeight = 16
+        Me.ListBox1.Location = New System.Drawing.Point(433, 136)
+        Me.ListBox1.Name = "ListBox1"
+        Me.ListBox1.Size = New System.Drawing.Size(218, 212)
+        Me.ListBox1.TabIndex = 14
         '
         'Form2
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1111, 529)
+        Me.Controls.Add(Me.ListBox1)
+        Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.TextBox_Id)
         Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.Button3)
@@ -190,4 +218,6 @@ Partial Class Form2
     Friend WithEvents Button3 As Button
     Friend WithEvents Label5 As Label
     Friend WithEvents TextBox_Id As TextBox
+    Friend WithEvents Button4 As Button
+    Friend WithEvents ListBox1 As ListBox
 End Class
