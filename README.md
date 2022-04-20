@@ -42,3 +42,5 @@ If that doesn't work and you have Visual Studio Installed: <br>
 <br>
 Open Visual Studio and select EmployeeDatabase.sln <br>
 Select Build solution <br>
+<br>
+To Use application Select Setup folder and click on the setup.exe file to download and use <br>
