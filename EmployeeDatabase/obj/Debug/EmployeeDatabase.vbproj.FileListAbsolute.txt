@@ -2,7 +2,6 @@ C:\Users\Tyler\source\repos\EmployeeDatabase\EmployeeDatabase\bin\Debug\Employee
 C:\Users\Tyler\source\repos\EmployeeDatabase\EmployeeDatabase\bin\Debug\EmployeeDatabase.exe
 C:\Users\Tyler\source\repos\EmployeeDatabase\EmployeeDatabase\bin\Debug\EmployeeDatabase.pdb
 C:\Users\Tyler\source\repos\EmployeeDatabase\EmployeeDatabase\bin\Debug\EmployeeDatabase.xml
-C:\Users\Tyler\source\repos\EmployeeDatabase\EmployeeDatabase\obj\Debug\EmployeeDatabase.vbprojAssemblyReference.cache
 C:\Users\Tyler\source\repos\EmployeeDatabase\EmployeeDatabase\obj\Debug\EmployeeDatabase.Form1.resources
 C:\Users\Tyler\source\repos\EmployeeDatabase\EmployeeDatabase\obj\Debug\EmployeeDatabase.Resources.resources
 C:\Users\Tyler\source\repos\EmployeeDatabase\EmployeeDatabase\obj\Debug\EmployeeDatabase.vbproj.GenerateResource.cache
@@ -34,3 +33,4 @@ C:\Users\Tyler\source\repos\EmployeeDatabase\EmployeeDatabase\bin\Debug\System.N
 C:\Users\Tyler\source\repos\EmployeeDatabase\EmployeeDatabase\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 C:\Users\Tyler\source\repos\EmployeeDatabase\EmployeeDatabase\obj\Debug\EmployeeDatabase.vbproj.CopyComplete
 C:\Users\Tyler\source\repos\EmployeeDatabase\EmployeeDatabase\obj\Debug\EmployeeDatabase.Form2.resources
+C:\Users\Tyler\source\repos\EmployeeDatabase\EmployeeDatabase\obj\Debug\EmployeeDatabase.vbprojAssemblyReference.cache

@@ -168,6 +168,7 @@ where EmId='" & TextBox_Id.Text & "'"
     End Sub
 
     Private Sub DataGridView1_CellContentClick(sender As Object, e As DataGridViewCellEventArgs) Handles DataGridView1.CellContentClick
+
         If e.RowIndex >= 0 Then
             Dim row As DataGridViewRow
             row = Me.DataGridView1.Rows(e.RowIndex)
@@ -184,6 +185,7 @@ where EmId='" & TextBox_Id.Text & "'"
         Dim DV As New DataView(dbDataSet)
         DV.RowFilter = String.Format("Firstname Like '%{0}%'", Search_txt.Text)
         DataGridView1.DataSource = DV
+
     End Sub
 
     Private Sub Form2_FormClosing(sender As Object, e As FormClosingEventArgs) Handles MyBase.FormClosing
