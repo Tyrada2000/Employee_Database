@@ -38,7 +38,6 @@ Partial Class Form2
         Me.Button4 = New System.Windows.Forms.Button()
         Me.Button_LoadTable = New System.Windows.Forms.Button()
         Me.DataGridView1 = New System.Windows.Forms.DataGridView()
-        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
         Me.Search_txt = New System.Windows.Forms.TextBox()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -180,7 +179,7 @@ Partial Class Form2
         Me.Button_LoadTable.Name = "Button_LoadTable"
         Me.Button_LoadTable.Size = New System.Drawing.Size(270, 60)
         Me.Button_LoadTable.TabIndex = 14
-        Me.Button_LoadTable.Text = "Load Table"
+        Me.Button_LoadTable.Text = "Refresh"
         Me.Button_LoadTable.UseVisualStyleBackColor = True
         '
         'DataGridView1
@@ -192,14 +191,6 @@ Partial Class Form2
         Me.DataGridView1.RowTemplate.Height = 24
         Me.DataGridView1.Size = New System.Drawing.Size(570, 280)
         Me.DataGridView1.TabIndex = 15
-        '
-        'ComboBox1
-        '
-        Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.Location = New System.Drawing.Point(416, 35)
-        Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(197, 24)
-        Me.ComboBox1.TabIndex = 16
         '
         'Search_txt
         '
@@ -215,7 +206,6 @@ Partial Class Form2
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1109, 601)
         Me.Controls.Add(Me.Search_txt)
-        Me.Controls.Add(Me.ComboBox1)
         Me.Controls.Add(Me.DataGridView1)
         Me.Controls.Add(Me.Button_LoadTable)
         Me.Controls.Add(Me.Button4)
@@ -256,6 +246,5 @@ Partial Class Form2
     Friend WithEvents Button4 As Button
     Friend WithEvents Button_LoadTable As Button
     Friend WithEvents DataGridView1 As DataGridView
-    Friend WithEvents ComboBox1 As ComboBox
     Friend WithEvents Search_txt As TextBox
 End Class
