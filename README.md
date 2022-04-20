@@ -24,8 +24,8 @@ passwords <br>
 <br>
 The First spot of the database will be filled using the command: <br>
 <br>
-INSERT into employeedata.employeedata(EmId, user_name, passwords) values ('0','',''); <br>
-(feel free to insert whatever user_name and password you want, just dont forget it) <br>
+INSERT into employeedata.employeedata(EmId, Firstname, Lastname, JobTitle, DateOfHire, user_name, passwords) values ('0','','','','','',''); <br>
+(feel free to insert whatever you want for the blank variables) <br>
 <br>
 The database is now ready to use with the program!! <br>
 <br>
