@@ -72,17 +72,19 @@ Partial Class Form1
         '
         'TextBox_UN
         '
-        Me.TextBox_UN.Location = New System.Drawing.Point(256, 126)
+        Me.TextBox_UN.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox_UN.Location = New System.Drawing.Point(256, 109)
         Me.TextBox_UN.Name = "TextBox_UN"
-        Me.TextBox_UN.Size = New System.Drawing.Size(175, 22)
+        Me.TextBox_UN.Size = New System.Drawing.Size(175, 41)
         Me.TextBox_UN.TabIndex = 4
         '
         'TextBox_Pass
         '
-        Me.TextBox_Pass.Location = New System.Drawing.Point(256, 180)
+        Me.TextBox_Pass.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox_Pass.Location = New System.Drawing.Point(256, 164)
         Me.TextBox_Pass.Name = "TextBox_Pass"
         Me.TextBox_Pass.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
-        Me.TextBox_Pass.Size = New System.Drawing.Size(175, 22)
+        Me.TextBox_Pass.Size = New System.Drawing.Size(175, 41)
         Me.TextBox_Pass.TabIndex = 5
         '
         'Form1

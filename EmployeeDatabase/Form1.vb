@@ -46,9 +46,9 @@ Public Class Form1
                 Me.Hide()
 
             ElseIf count > 1 Then
-                MessageBox.Show("Username and password are Duplicate")
+                MessageBox.Show("Username or password are Duplicate")
             Else
-                MessageBox.Show("Username and password are not correct")
+                MessageBox.Show("Username or password are not correct")
             End If
 
             sqlConn.Close()

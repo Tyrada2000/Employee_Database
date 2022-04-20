@@ -36,7 +36,11 @@ Partial Class Form2
         Me.Label5 = New System.Windows.Forms.Label()
         Me.TextBox_Id = New System.Windows.Forms.TextBox()
         Me.Button4 = New System.Windows.Forms.Button()
-        Me.ListBox1 = New System.Windows.Forms.ListBox()
+        Me.Button_LoadTable = New System.Windows.Forms.Button()
+        Me.DataGridView1 = New System.Windows.Forms.DataGridView()
+        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
+        Me.Search_txt = New System.Windows.Forms.TextBox()
+        CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Label1
@@ -162,28 +166,58 @@ Partial Class Form2
         'Button4
         '
         Me.Button4.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button4.Location = New System.Drawing.Point(433, 446)
+        Me.Button4.Location = New System.Drawing.Point(51, 529)
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(165, 60)
         Me.Button4.TabIndex = 13
         Me.Button4.Text = "Delete"
         Me.Button4.UseVisualStyleBackColor = True
         '
-        'ListBox1
+        'Button_LoadTable
         '
-        Me.ListBox1.FormattingEnabled = True
-        Me.ListBox1.ItemHeight = 16
-        Me.ListBox1.Location = New System.Drawing.Point(433, 136)
-        Me.ListBox1.Name = "ListBox1"
-        Me.ListBox1.Size = New System.Drawing.Size(218, 212)
-        Me.ListBox1.TabIndex = 14
+        Me.Button_LoadTable.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button_LoadTable.Location = New System.Drawing.Point(591, 446)
+        Me.Button_LoadTable.Name = "Button_LoadTable"
+        Me.Button_LoadTable.Size = New System.Drawing.Size(270, 60)
+        Me.Button_LoadTable.TabIndex = 14
+        Me.Button_LoadTable.Text = "Load Table"
+        Me.Button_LoadTable.UseVisualStyleBackColor = True
+        '
+        'DataGridView1
+        '
+        Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.DataGridView1.Location = New System.Drawing.Point(416, 136)
+        Me.DataGridView1.Name = "DataGridView1"
+        Me.DataGridView1.RowHeadersWidth = 51
+        Me.DataGridView1.RowTemplate.Height = 24
+        Me.DataGridView1.Size = New System.Drawing.Size(570, 280)
+        Me.DataGridView1.TabIndex = 15
+        '
+        'ComboBox1
+        '
+        Me.ComboBox1.FormattingEnabled = True
+        Me.ComboBox1.Location = New System.Drawing.Point(416, 35)
+        Me.ComboBox1.Name = "ComboBox1"
+        Me.ComboBox1.Size = New System.Drawing.Size(197, 24)
+        Me.ComboBox1.TabIndex = 16
+        '
+        'Search_txt
+        '
+        Me.Search_txt.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Search_txt.Location = New System.Drawing.Point(298, 538)
+        Me.Search_txt.Name = "Search_txt"
+        Me.Search_txt.Size = New System.Drawing.Size(285, 34)
+        Me.Search_txt.TabIndex = 17
         '
         'Form2
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1111, 529)
-        Me.Controls.Add(Me.ListBox1)
+        Me.ClientSize = New System.Drawing.Size(1109, 601)
+        Me.Controls.Add(Me.Search_txt)
+        Me.Controls.Add(Me.ComboBox1)
+        Me.Controls.Add(Me.DataGridView1)
+        Me.Controls.Add(Me.Button_LoadTable)
         Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.TextBox_Id)
         Me.Controls.Add(Me.Label5)
@@ -200,6 +234,7 @@ Partial Class Form2
         Me.Controls.Add(Me.Label1)
         Me.Name = "Form2"
         Me.Text = "Form2"
+        CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -219,5 +254,8 @@ Partial Class Form2
     Friend WithEvents Label5 As Label
     Friend WithEvents TextBox_Id As TextBox
     Friend WithEvents Button4 As Button
-    Friend WithEvents ListBox1 As ListBox
+    Friend WithEvents Button_LoadTable As Button
+    Friend WithEvents DataGridView1 As DataGridView
+    Friend WithEvents ComboBox1 As ComboBox
+    Friend WithEvents Search_txt As TextBox
 End Class
